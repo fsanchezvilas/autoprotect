@@ -15,5 +15,3 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [MathController::class,'index']);
-
-Route::get('math',[MathController::class,'square']);

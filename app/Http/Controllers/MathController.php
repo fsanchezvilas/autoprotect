@@ -10,8 +10,4 @@ class MathController extends Controller
         return view('index');
     }
 
-    public function square (Request $request){
-        $square = $request->square;
-    return view('index')->with('square',$square);
-    }
 }
